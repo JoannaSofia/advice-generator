@@ -1,0 +1,58 @@
+:root {
+  --bg-color-primary: #1e1f23;
+  --bg-color-secondary: #c99d7f;
+  --font-color-primary: #A6A9AA;
+  --font-color-secondary: #c99d7f;
+  --font-color-tertiary: #1e1f23;
+  --border-color-primary: #6b6f72;
+  --border-color-secondary:#c99d7f;
+  --padding-xs: .5rem; 
+  --padding-small: 1rem;
+  --padding-medium: 2rem;
+  --margin-xs: .5rem;
+  --margin-small: 1rem;
+  --margin-medium: 2rem;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--bg-color-primary);
+  color: var(--font-color-primary);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-style: italic;
+  font-size: 3rem;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
